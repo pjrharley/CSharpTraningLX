@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chap2 {
-    class Program {
-        static void Main(string[] args) {
-            Console.WriteLine("Hello");
+namespace CSharpLearning {
+    class Ex1_1 {
+        static public void run() {
+            Console.WriteLine("What a great book!");
         }
     }
 }

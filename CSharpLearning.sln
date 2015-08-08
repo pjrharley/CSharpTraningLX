@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap1", "CSharpLearning\Chap1.csproj", "{F54746AA-90CA-4959-926E-882E2C0DB6E6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap2", "Chap2\Chap2.csproj", "{59D48B47-CA38-4A25-BE2D-C0954EF2990F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap1", "Chap1\Chap1.csproj", "{F54746AA-90CA-4959-926E-882E2C0DB6E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{F54746AA-90CA-4959-926E-882E2C0DB6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F54746AA-90CA-4959-926E-882E2C0DB6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F54746AA-90CA-4959-926E-882E2C0DB6E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59D48B47-CA38-4A25-BE2D-C0954EF2990F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59D48B47-CA38-4A25-BE2D-C0954EF2990F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59D48B47-CA38-4A25-BE2D-C0954EF2990F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59D48B47-CA38-4A25-BE2D-C0954EF2990F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
