@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace CSharpLearning {
     class Program {
         static void Main(string[] args) {
+            Ex1_1.run();
         }
     }
 }
