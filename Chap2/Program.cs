@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Chap2 {
+    class Program {
+        static void Main(string[] args) {
+            Ex2_1.run();
+            Ex2_3.run();
+        }
+    }
+}
