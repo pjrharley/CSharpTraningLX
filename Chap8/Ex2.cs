@@ -17,21 +17,9 @@ namespace Chap8 {
     
     class Dog {
         private double weight;
-        private string colour = "blue";
 
-        public string Colour {
-            get {
-                return colour;
-            }
-        }
+        public string Colour { get; } = "blue";
 
-        public double Weight {
-            set {
-                this.weight = value;
-            }
-            get {
-                return weight;
-            }
-        }
+        public double Weight { get; set; }
     }
 }

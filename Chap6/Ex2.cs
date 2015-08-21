@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Chap6 {
     class Book {
-        private string title, author, content, ISBN; 
+        private string Title, Author, Content, ISBN; 
 
         public Book(string title, string author, string content, string ISBN) {
-            this.title = title;
-            this.author = author;
-            this.content = content;
+            this.Title = title;
+            this.Author = author;
+            this.Content = content;
             this.ISBN = ISBN;
         }
 
         public string read() {
-            return this.content;
+            return this.Content;
         }
 
         public void shelve() {

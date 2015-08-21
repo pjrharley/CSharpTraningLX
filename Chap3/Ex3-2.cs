@@ -12,7 +12,7 @@ namespace Chap3 {
             double c = 112356.78931;
             char d = 'd';
             string e = "this is a string modified";
-            Console.WriteLine("{0}, {1}, {2}, {3}, {4}", a, b, c, d, e);
+            Console.WriteLine($"{a}, {b}, {c}, {d}, {e}");
         }
     }
 }

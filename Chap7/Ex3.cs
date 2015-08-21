@@ -26,7 +26,11 @@ namespace Chap7 {
         }
 
         public void displayBook() {
-            Console.WriteLine(title + " " + author + " " + publisher + " " + ISBN);
+            Console.WriteLine(this.toString());
+        }
+
+        private string toString() {
+            return title + " " + author + " " + publisher + " " + ISBN;
         }
     }
 }

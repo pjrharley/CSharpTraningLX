@@ -25,20 +25,20 @@ namespace Chap7 {
     }
 
     class Square {
-        private Point p1, p2, p3, p4;
+        private Point BotLeftCorner, BotRightCorner, TopLeftCorner, TopRightCorner;
 
         public Square(Point p, int l) {
-            p1 = p;
-            p2 = new Point(p.x + l, p.y);
-            p3 = new Point(p.x, p.y + l);
-            p4 = new Point(p.x + l, p.y + l);
+            BotLeftCorner = p;
+            BotRightCorner = new Point(p.x + l, p.y);
+            TopLeftCorner = new Point(p.x, p.y + l);
+            TopRightCorner = new Point(p.x + l, p.y + l);
         }
 
         public void DisplayCorners() {
-            p1.Display();
-            p2.Display();
-            p3.Display();
-            p4.Display();
+            BotLeftCorner.Display();
+            BotRightCorner.Display();
+            TopLeftCorner.Display();
+            TopRightCorner.Display();
         }
     }
 }
