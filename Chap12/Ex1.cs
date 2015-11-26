@@ -44,6 +44,13 @@ namespace Chap12 {
             return !(lhs == rhs);
         }
 
+        public override bool Equals(object obj) {
+            if (!(obj is Invoice)) {
+                return false;
+            }
+            return this == (Invoice)obj;
+        }
+
         public static bool operator >(Invoice lhs, Invoice rhs) {
             if (lhs.vendor == rhs.vendor && lhs.amount > rhs.amount) {
                 return true;
